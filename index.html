@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LocalStorage</title>
+  </head>
+  <body>
+    <h1>LocalStorage demo</h1>
+    <p>
+      <a href="https://www.w3schools.com/html/html5_webstorage.asp"
+        >LocalStorage</a
+      >
+      kan användas för att spara information i användarens webbläsare. Det kan
+      t.ex. vara inställningar för en användare eller saker i en varukorg.
+    </p>
+    <p>
+      I LocalStorage kan man lagra saker i namn/värde-par. Värdet som lagras är
+      en sträng. Det är användbart att lagra JavaScript-objekt som
+      <a href="https://www.w3schools.com/js/js_json_intro.asp">JSON</a>
+      (strängrepresentation av objekten) i LocalStorage och sedan hämta ut dem
+      och göra om dem till objekt igen.
+    </p>
+    <p>
+      Här är två sidor som demonstrerar hur LocalStorage kan användas för att
+      lagra produkter i en varukorg på en sida och sedan skriva ut dem på en
+      annan sida.
+    </p>
+    <p>
+      Du kan se vad som lagrat i LocalStorage genom att öppna
+      webbutvecklarverktygen, gå till fliken Application och fälla ut Local
+      Storage under rubriken Storage
+    </p>
+    <p>Läs koden för att se detaljerna</p>
+    <a href="cart.html">Varukorgen</a>
+    <button id="addToCart">Lägg till produkt i varukorg</button>
+  </body>
+  <script src="addToCart.js"></script>
+</html>
